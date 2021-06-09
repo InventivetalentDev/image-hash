@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danm/image-hash.git"
+    "url": "git+https://github.com/inventivetalentDev/image-hash.git"
   },
   "keywords": [
     "phash",
@@ -26,9 +26,9 @@
   "author": "Daniel Morrison <daniel.morrison@bbc.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danm/image-hash/issues"
+    "url": "https://github.com/inventivetalentDev/image-hash/issues"
   },
-  "homepage": "https://github.com/danm/image-hash#readme",
+  "homepage": "https://github.com/inventivetalentDev/image-hash#readme",
   "dependencies": {
     "file-type": "^14.6.2",
     "jpeg-js": "^0.4.0",
