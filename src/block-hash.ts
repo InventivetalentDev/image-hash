@@ -61,7 +61,7 @@ const bmvbhashEven = (data, bits) => {
                     if (alpha === 0) {
                         total += 765;
                     } else {
-                        total += data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
+                        total += alpha + data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
                     }
                 }
             }
@@ -142,7 +142,7 @@ const bmvbhash = (data, bits) => {
             if (alpha === 0) {
                 avgvalue = 765;
             } else {
-                avgvalue = data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
+                avgvalue = alpha + data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
             }
 
             if (evenX) {
