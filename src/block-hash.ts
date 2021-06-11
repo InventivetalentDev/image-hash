@@ -1,3 +1,8 @@
+const MR = 23;
+const MG = 59;
+const MB = 71;
+const MA = 97;
+
 const median = (data) => {
     const mdarr = data.slice(0)
         .sort((a, b) => a - b);
@@ -61,7 +66,7 @@ const bmvbhashEven = (data, bits) => {
                     if (alpha === 0) {
                         total += 765;
                     } else {
-                        total += alpha + data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
+                        total += (alpha * MA) + (data.data[ii] * MR) + (data.data[ii + 1] * MG) + (data.data[ii + 2] * MB);
                     }
                 }
             }
@@ -142,7 +147,7 @@ const bmvbhash = (data, bits) => {
             if (alpha === 0) {
                 avgvalue = 765;
             } else {
-                avgvalue = alpha + data.data[ii] + data.data[ii + 1] + data.data[ii + 2];
+                avgvalue = (alpha * MA) + (data.data[ii] * MR) + (data.data[ii + 1] * MG) + (data.data[ii + 2] * MB);
             }
 
             if (evenX) {
